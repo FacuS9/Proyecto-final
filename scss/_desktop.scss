@@ -1,0 +1,153 @@
+$margin-h2: 70px 0px 70px 0px;
+
+/*DESKTOP*/
+
+/*BARRA DE ARRIVA*/
+.header-top {
+	height: 70px;
+	display: flex;
+	align-items: flex-end;
+}
+.header-top__social {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+}
+.list__item {
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+}
+.list__item i {
+	transition: 1.5s;
+	font-size: 25px;
+}
+.fa-facebook {
+	padding-left: 20px;
+}
+.list__item--p {
+	text-align: center;
+}
+/*NAVBAR*/
+.navbar-brand img {
+	min-width: 160px;
+	max-width: 180px;
+}
+.btn i {
+	margin-left: 5px;
+}
+.content-center {
+	margin: $margin-h2;
+	text-align: center;
+}
+.categorias-container {
+	position: relative;
+	overflow: hidden;
+}
+.categorias-detalles {
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	z-index: 7000;
+}
+.categorias-container img {
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+#footer {
+	margin-top: 80px;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+#footer .list-menu .list-menu-item {
+	padding: 10px 15px;
+}
+#footer .footerb {
+	height: 50px;
+}
+#footer .footerb p {
+	font-size: 10px;
+}
+.list-inline-item a {
+	text-decoration: none;
+}
+.list-inline-item i {
+	transition: 1s;
+}
+.list-inline-item a {
+	transition: 1s;
+}
+.footerb {
+	padding: 10px;
+}
+
+/*-------------------TODOS----------------*/
+.title {
+	padding-bottom: 50px;
+}
+.breadcrumb {
+	display: flex;
+	justify-content: center;
+	background-color: transparent;
+	margin-top: 20px;
+}
+.breadcrumb-item a {
+	color: #592816;
+}
+/*--------------------TIENDA---------------*/
+.list-group-item a {
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+/*--------------------NOSTOROS---------------*/
+.section1__description {
+	display: inline-block;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section1__description img {
+	height: 600px;
+	opacity: 0.08;
+}
+.section1__description p {
+	font-size: 22px;
+	font-weight: 10px;
+	position: absolute;
+	padding: 30px 0px;
+	text-align: center;
+	padding: 0px 30px;
+}
+/*--------------------CONTACTO---------------*/
+.listado-contacto {
+	padding-left: 0px;
+}
+.listado-contacto li{
+	list-style: none;
+}
+/*--------------------REGISTRATE---------------*/
+
+.custom-control-label {
+	padding-bottom: 20px;
+}
+
+.banner{
+	background-image: url(../assets/banner_index2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	width: 100%;
+    height: auto;
+}
+.banner__title{
+	font-size: 30px;
+    font-weight: 15px;
+	padding: 80px 0px;
+    color: #fff;
+    text-align: center;
+}

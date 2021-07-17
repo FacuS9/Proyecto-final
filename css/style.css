@@ -1,0 +1,391 @@
+body {
+  background-color: #fcf5e9; }
+
+.header__top--bg {
+  background-color: #592816; }
+
+.list__item i {
+  color: #fff; }
+  .list__item i:hover {
+    color: #D9AB82; }
+
+.list__item--p {
+  color: #fff; }
+
+.nav-link {
+  color: #000; }
+  .nav-link:hover {
+    color: #8C4830; }
+
+.btn-light {
+  background-color: #592816;
+  color: #fff;
+  border: 2px solid #592816; }
+  .btn-light:hover {
+    background-color: #D9AB82;
+    border: 2px solid #D9AB82; }
+
+.categorias-detalles {
+  color: #fff;
+  text-shadow: 1px 1px 1px #000; }
+
+.btn-primary {
+  background-color: #592816;
+  color: #fff;
+  border: 2px solid #592816; }
+  .btn-primary:hover {
+    background-color: #D9AB82;
+    border: 2px solid #D9AB82; }
+
+#footer {
+  background-color: #592816; }
+
+.list-inline-item i {
+  color: #fff; }
+  .list-inline-item i:hover {
+    color: #A66E4E; }
+
+.list-inline-item a {
+  color: #fff; }
+  .list-inline-item a:hover {
+    color: #A66E4E; }
+
+.footerb {
+  background-color: #3d1c0f;
+  color: #F2DAAC; }
+
+/*--------------------TIENDA---------------*/
+.card-header {
+  background-color: #A66E4E; }
+
+.list-group-item {
+  background-color: #D9AB82; }
+
+.list-group-item a {
+  color: #fff; }
+  .list-group-item a:hover {
+    color: #3d1c0f; }
+
+/* GOOGLE FONTS */
+body {
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 70px;
+  text-shadow: 3px 3px 2px #000; }
+
+h2 {
+  letter-spacing: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px; }
+
+h3 {
+  font-size: 40px;
+  font-weight: 600; }
+
+p {
+  text-shadow: 1px 1px 1px #000; }
+
+.list__item--p {
+  font-family: "Itim", cursive; }
+
+.carousel-caption p {
+  font-size: 30px;
+  text-transform: capitalize; }
+
+.btn-light {
+  text-transform: uppercase; }
+
+.card-body {
+  text-transform: uppercase; }
+
+.title {
+  letter-spacing: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 60px;
+  display: inline-block;
+  position: relative;
+  text-shadow: 0px 0px 0px #000; }
+
+.title::after, .title::before {
+  content: '';
+  position: absolute;
+  width: 220px;
+  height: 2px;
+  background-color: black;
+  top: 0.6em; }
+
+.title::before {
+  left: -260px; }
+
+.title::after {
+  right: -240px; }
+
+/*--------------------TIENDA---------------*/
+.card-header {
+  font-weight: bolder;
+  font-size: 18px; }
+
+.list-group-item {
+  font-weight: normal;
+  font-size: 18px; }
+
+.section1__description p {
+  text-shadow: none; }
+
+@media screen and (min-width: 1200px) {
+  #map iframe {
+    height: 375px;
+    width: 450px; } }
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 20px; }
+  .carousel-caption p {
+    font-size: 20px; }
+  .card-title {
+    font-size: 15px; }
+  .card-body a {
+    font-size: 10px; }
+  .card-header {
+    font-size: 16px; }
+  #map iframe {
+    height: 275px;
+    width: 320px; }
+  .title::after, .title::before {
+    width: 120px; }
+  .title::before {
+    left: -160px; }
+  .title::after {
+    right: -140px; } }
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 50px; }
+  .title::after, .title::before {
+    width: 80px; } }
+
+@media screen and (max-width: 770px) {
+  .header__top--bg {
+    display: none; }
+  #carouselExampleCaptions {
+    display: none; }
+  .title {
+    font-size: 30px; }
+  .section-contact__des {
+    text-align: center; }
+  .title::after, .title::before {
+    width: 70px; }
+  .title::before {
+    left: -90px; }
+  .title::after {
+    right: -80px; } }
+
+@media screen and (max-width: 550px) {
+  .content-center h2 {
+    font-size: 20px; }
+  .title {
+    font-size: 20px; }
+  .categorias-container {
+    width: 300px;
+    margin: auto; }
+  #map iframe {
+    height: 275px;
+    width: 350px; }
+  .card {
+    width: 300px;
+    margin: auto; }
+  .footerb--p {
+    font-size: 8px; }
+  .title::after, .title::before {
+    width: 0px; } }
+
+@media screen and (max-width: 400px) {
+  #map iframe {
+    height: 200px;
+    width: 250px; } }
+
+@media screen and (max-width: 281px) {
+  .content-center h2 {
+    font-size: 10px;
+    letter-spacing: 10px; }
+  .categorias-container {
+    width: 220px;
+    margin: auto; }
+  .card {
+    width: 220px;
+    margin: auto; }
+  .title {
+    font-size: 20px;
+    letter-spacing: 10px; }
+  #map iframe {
+    height: 150px;
+    width: 200px; }
+  .footerb--p {
+    font-size: 2px; } }
+
+@media screen and (min-width: 1000px) {
+  .categorias-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(); }
+  .card-efecto {
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+  .card-efecto:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(); }
+  .banner {
+    display: none; } }
+
+/*DESKTOP*/
+/*BARRA DE ARRIVA*/
+.header-top {
+  height: 70px;
+  display: flex;
+  align-items: flex-end; }
+
+.header-top__social {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between; }
+
+.list__item {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block; }
+
+.list__item i {
+  transition: 1.5s;
+  font-size: 25px; }
+
+.fa-facebook {
+  padding-left: 20px; }
+
+.list__item--p {
+  text-align: center; }
+
+/*NAVBAR*/
+.navbar-brand img {
+  min-width: 160px;
+  max-width: 180px; }
+
+.btn i {
+  margin-left: 5px; }
+
+.content-center {
+  margin: 70px 0px 70px 0px;
+  text-align: center; }
+
+.categorias-container {
+  position: relative;
+  overflow: hidden; }
+
+.categorias-detalles {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  z-index: 7000; }
+
+.categorias-container img {
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
+
+#footer {
+  margin-top: 80px;
+  padding: 20px 0 0 0;
+  text-align: center; }
+
+#footer .list-menu .list-menu-item {
+  padding: 10px 15px; }
+
+#footer .footerb {
+  height: 50px; }
+
+#footer .footerb p {
+  font-size: 10px; }
+
+.list-inline-item a {
+  text-decoration: none; }
+
+.list-inline-item i {
+  transition: 1s; }
+
+.list-inline-item a {
+  transition: 1s; }
+
+.footerb {
+  padding: 10px; }
+
+/*-------------------TODOS----------------*/
+.title {
+  padding-bottom: 50px; }
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  margin-top: 20px; }
+
+.breadcrumb-item a {
+  color: #592816; }
+
+/*--------------------TIENDA---------------*/
+.list-group-item a {
+  transition: 0.5s;
+  text-decoration: none; }
+
+/*--------------------NOSTOROS---------------*/
+.section1__description {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.section1__description img {
+  height: 600px;
+  opacity: 0.08; }
+
+.section1__description p {
+  font-size: 22px;
+  font-weight: 10px;
+  position: absolute;
+  padding: 30px 0px;
+  text-align: center;
+  padding: 0px 30px; }
+
+/*--------------------CONTACTO---------------*/
+.listado-contacto {
+  padding-left: 0px; }
+
+.listado-contacto li {
+  list-style: none; }
+
+/*--------------------REGISTRATE---------------*/
+.custom-control-label {
+  padding-bottom: 20px; }
+
+.banner {
+  background-image: url(../assets/banner_index2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+
+.banner__title {
+  font-size: 30px;
+  font-weight: 15px;
+  padding: 80px 0px;
+  color: #fff;
+  text-align: center; }

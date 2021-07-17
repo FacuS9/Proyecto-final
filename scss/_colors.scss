@@ -1,0 +1,89 @@
+$color1: #F2DAAC;
+$color2: #D9AB82;
+$color3: #A66E4E;
+$color4: #592816;
+$color5: #8C4830;
+$color6: #3d1c0f;
+$white: #fff;
+$black: #000;
+$bg: #fcf5e9;
+
+body {
+	background-color: $bg;
+}
+.header__top--bg {
+	background-color: $color4; 
+}
+.list__item i{
+	color: $white;
+	&:hover{
+		color: $color2;
+	}
+}
+.list__item--p{
+	color: $white;
+}
+.nav-link{
+	color: $black;
+	&:hover{
+		color: $color5;
+	}
+}
+.btn-light{
+	background-color: $color4;
+	color: $white;
+	border: 2px solid $color4;
+	&:hover{
+		background-color: $color2;
+		border: 2px solid $color2;
+	}
+}
+.categorias-detalles {
+	color: $white;
+	text-shadow: 1px 1px 1px #000;
+}
+.btn-primary{
+	background-color: $color4;
+	color: $white;
+	border: 2px solid $color4;
+	&:hover{
+		background-color: $color2;
+		border: 2px solid $color2;
+	}
+}
+#footer {
+	background-color: $color4;
+}
+.list-inline-item i {
+	color: $white;
+	&:hover {
+		color: $color3;
+	}
+}
+.list-inline-item a {
+	color: $white;
+	&:hover {
+		color: $color3;
+	}
+}
+.footerb {
+	background-color: $color6;
+	color:$color1;
+}
+
+
+
+/*--------------------TIENDA---------------*/
+.card-header {
+	background-color: $color3;
+}
+.list-group-item {
+	background-color: $color2;
+}
+.list-group-item a {
+	color: $white;
+	&:hover {
+		color: $color6;
+	}
+	
+}

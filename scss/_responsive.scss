@@ -1,0 +1,147 @@
+@media screen and (min-width: 1200px) {
+	#map iframe {
+		height: 375px;
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	h1 {
+		font-size: 20px;
+	}
+	.carousel-caption p {
+		font-size: 20px;
+	}
+	.card-title {
+		font-size: 15px;
+	}
+	.card-body a {
+		font-size: 10px;
+	}
+	.card-header {
+		font-size: 16px;
+	}
+	#map iframe {
+		height: 275px;
+		width: 320px;
+	}
+	.title::after,.title::before {
+		width: 120px;
+	}
+	.title::before {
+		left: -160px;
+	}
+	.title::after {
+		right: -140px;
+	}
+}
+@media screen and (max-width: 992px){
+	.title {
+		font-size: 50px;
+	}
+	.title::after,.title::before {
+		width: 80px;
+	}
+};
+
+@media screen and (max-width: 770px) {
+	.header__top--bg {
+		display: none;
+	}
+	#carouselExampleCaptions {
+		display: none;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.section-contact__des {
+		text-align: center;
+	}
+	.title::after,.title::before {
+		width: 70px;
+	}
+	.title::before {
+		left: -90px;
+	}
+	.title::after {
+		right: -80px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.content-center h2 {
+		font-size: 20px;
+	}
+	.title {
+		font-size: 20px;
+	}
+	.categorias-container{
+		width:300px;
+		margin: auto;
+	}
+	#map iframe {
+		height: 275px;
+		width: 350px;
+	}
+	.card {
+		width: 300px;
+		margin: auto;
+	}
+	.footerb--p {
+		font-size: 8px;
+	}
+	.title::after,.title::before {
+		width: 0px;
+	}
+}
+@media screen and (max-width: 400px) {
+	#map iframe {
+		height: 200px;
+		width: 250px;
+	}
+}
+@media screen and (max-width: 281px) {
+	.content-center h2 {
+		font-size: 10px;
+		letter-spacing: 10px;
+	}
+	.categorias-container{
+		width:220px;
+		margin: auto;
+	}
+	.card {
+		width: 220px;
+		margin: auto;
+	}
+	.title {
+		font-size: 20px;
+		letter-spacing: 10px;
+	}
+	#map iframe {
+		height: 150px;
+		width: 200px;
+	}
+	.footerb--p {
+		font-size: 2px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.categorias-container:hover img {
+		-moz-transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		transform: scale();
+	}
+	.card-efecto {
+		-moz-transition: all 1s;
+		-webkit-transition: all 1s;
+		transition: all 1s;
+	}
+	.card-efecto:hover {
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale();
+	}
+	.banner{
+		display: none;
+	}
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MUNAY homedeco</title>
+	<link rel="icon" href="assets/favico.ico">
+	<meta name="description"
+		content="TIENDA ONLINE DE DECORACIÓN - Encontrá Todo en MUNAY homedeco, Entrá y conocé! Velas de soja aromatizadas, pintura en madera , sahumerios y más.">
+	<meta name="keywords" content="tienda,decoración,hogar,regalos,velas,madera">
+	<meta name="author" content="Savignone Facundo">
+	<meta name="robots" content="index">
+	<meta name="copyright" content="MUNAY homedeco">
+	<!--GOOGLE FONTS 'LATO' 'MONTSERRAT' 'ITIM' -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,wght@0,300;1,300&family=Montserrat:ital,wght@0,300;1,300&display=swap"
+		rel="stylesheet">
+	<!--BOOTSTRAP 4.6-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<!--FONT AWESOME-->
+	<script src="https://kit.fontawesome.com/7b0440f1bd.js" crossorigin="anonymous"></script>
+	<!--AOS-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!--CSS-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!--PRELOADER-->
+	<div class="preloader">
+		<div class="container-fluid">
+			<div class="spinner">
+				<span class="ball-1"></span>
+				<span class="ball-2"></span>
+				<span class="ball-3"></span>
+				<span class="ball-4"></span>
+			</div>
+		</div>
+	</div>
+	<!--NAVBAR-->
+	<div class="header__top--bg">
+		<div class="container">
+			<div class="header-top">
+				<div class="header-top__social">
+					<ul class="header-top__list">
+						<li class="list__item"><a href="https://www.instagram.com" target="_blank"><i
+									class="fab fa-instagram"></i></a></li>
+						<li class="list__item"><a href="https://www.facebook.com" target="_blank"><i
+									class="fab fa-facebook"></i></a></li>
+					</ul>
+					<p class="list__item list__item--p">Explosión de color y de magia<br>  Nos da un  espacio para crecer y ser nosotros mismos.
+						</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg sticky-top bg-white">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/imagotipo2.png" alt="MunayHomedeco logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="pages/nosotros.html" id="nosotros">Nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pages/tienda.html" id="tienda">Tienda</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pages/contacto.html" id="contacto"></i>Contacto</a>
+					</li>
+					<!--DROPDOWN-->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="mi cuenta"></i>Mi
+							cuenta</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="pages/login.html">Inicia seción</a>
+							<a class="dropdown-item" href="pages/singin.html">Registrate</a>
+						</div>
+					</li>
+					<!--FIN DEL DROPDOWN-->
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+							<lord-icon src="https://cdn.lordicon.com/dnoiydox.json" trigger="loop-on-hover"
+								colors="primary:#121331,secondary:#000000" style="width:25px;height:25px">
+							</lord-icon>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">
+							<script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+							<lord-icon src="https://cdn.lordicon.com/msoeawqm.json" trigger="loop-on-hover"
+								colors="primary:#121331,secondary:#000000" style="width:25px;height:25px">
+							</lord-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--SECTION1 CAROUSEL-->
+	<div id="carouselExampleCaptions" class="carousel slide mw-100" data-bs-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="assets/banner_index2.jpg" class="d-block w-100" alt="banner foto 1">
+				<div class="carousel-caption d-none d-md-block texto">
+					<h1 class="animate__animated animate__heartbeat">Tienda online de decoración</h1>
+					<p>sensaciones que despiertan tu corazón</p>
+					<a href="pages/tienda.html" class="btn btn-light topmargin-sm shadow-lg p-3 mb-5 bg-body rounded"
+						role="button">Ir a
+						la tienda
+						<script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+						<lord-icon src="https://cdn.lordicon.com/dnoiydox.json" trigger="loop-on-hover"
+							colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
+						</lord-icon>
+					</a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/banner_index1.jpg" class="d-block w-100" alt="banner foto 2">
+				<div class="carousel-caption d-none d-md-block texto">
+					<h1 class="animate__animated animate__heartbeat">Pintura decorativa</h1>
+					<p>Explosión de color y de magia; nos da un espacio para crecer y ser nosotros mismos.</p>
+					<a href="pages/tienda.html" class="btn btn-light topmargin-sm shadow-lg p-3 mb-5 bg-body rounded"
+						role="button">Ir a
+						la tienda
+						<script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+						<lord-icon src="https://cdn.lordicon.com/dnoiydox.json" trigger="loop-on-hover"
+							colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
+						</lord-icon>
+					</a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="assets/banner_index3.jpg" class="d-block w-100" alt="banner foto 3s">
+				<div class="carousel-caption d-none d-md-block texto">
+					<h1 class="animate__animated animate__heartbeat">Velas de soja</h1>
+					<p>Nuestras velas están realizadas con cera de soja, que es 100% natural.</p>
+					<a href="pages/tienda.html" class="btn btn-light topmargin-sm shadow-lg p-3 mb-5 bg-body rounded"
+						role="button">Ir a
+						la tienda
+						<script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+						<lord-icon src="https://cdn.lordicon.com/dnoiydox.json" trigger="loop-on-hover"
+							colors="primary:#ffffff,secondary:#ffffff" style="width:25px;height:25px">
+						</lord-icon>
+					</a>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" role="button" href="#carouselExampleCaptions" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		</a>
+		<a class="carousel-control-next" role="button" href="#carouselExampleCaptions" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		</a>
+	</div>
+	<!--RESPONSIVE IMG-->
+	<div class="banner">
+		<h1 class="banner__title">Tienda online de decoración</h1>
+	</div>
+	</div>
+	<!--CATEGORIAS-->
+	<section id="categorias">
+		<div class="container categorias">
+			<div class="container-fluid">
+				<div class="content-center" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-offset="200">
+					<h2>Categorias</h2>
+				</div>
+				<div class="row" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-offset="200">
+					<div class="col-md-6">
+						<div class="categorias-container shadow mb-5 bg-body rounded-sm">
+							<div class="categorias-detalles">
+								<h3>Todos los productos</h3>
+								<p>- Mira nuestro catalogo</p>
+							</div>
+							<a href="pages/tienda.html"><img src="assets/modelo1.jpg" alt="categoria1"
+									class="img-fluid"></a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="categorias-container shadow mb-5 bg-body rounded-sm">
+							<div class="categorias-detalles">
+								<h3>Pintrura en madera</h3>
+								<p>- Mira nuestro catalogo</p>
+							</div>
+							<a href="pages/tienda.html"><img src="assets/caja_odisea.jpg" alt="categoria2"
+									class="img-fluid"></a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="categorias-container shadow mb-5 bg-body rounded-sm">
+							<div class="categorias-detalles">
+								<h3>Difusores y perfuminas</h3>
+								<p>- Mira nuestro catalogo</p>
+							</div>
+							<a href="pages/tienda.html"><img src="assets/sahumeriuos1png.png" alt="categoria4"
+									class="img-fluid"></a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="categorias-container shadow mb-5 bg-body rounded-sm">
+							<div class="categorias-detalles">
+								<h3>Velas de soja</h3>
+								<p>- Mira nuestro catalogo</p>
+							</div>
+							<a href="pages/tienda.html"><img src="assets/vela1.jpg" alt="categoria3"
+									class="img-fluid"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--SECCION3-->
+	<section id="tendencias">
+		<div class="container">
+			<div class="content-center">
+				<h2 data-aos="zoom-in-up" data-aos-duration="2000" data-aos-offset="200">Tendencias</h2>
+			</div>
+			<div class="row row-cols-1 row-cols-md-3" data-aos="zoom-in-up" data-aos-duration="2000"
+				data-aos-offset="200">
+				<div class="col mb-4">
+					<div class="card card-efecto shadow mb-5 bg-body rounded-sm">
+						<img src="assets/vela3.jpg" class="card-img-top" alt="vela 1">
+						<div class="card-body text-center">
+							<h5 class="card-title text-center">vela sumak</h5>
+							<a href="pages/tienda.html" class="btn btn-primary btn-lg btn-block" role="button"
+								aria-pressed="true">ver
+								en la tienda</a>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card card-efecto shadow bg-body rounded-sm">
+						<img src="assets/caja_corazon.jpg" class="card-img-top" alt="vela 2">
+						<div class="card-body text-center">
+							<h5 class="card-title text-center">Caja corazón</h5>
+							<a href="pages/tienda.html" class="btn btn-primary btn-lg btn-block" role="button"
+								aria-pressed="true">ver
+								en la tienda</a>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4">
+					<div class="card card-efecto shadow bg-body rounded-sm">
+						<img src="assets/vela2.jpg" class="card-img-top" alt="vela 3">
+						<div class="card-body text-center">
+							<h5 class="card-title text-center">vela inti</h5>
+							<a href="pages/tienda.html" class="btn btn-primary btn-lg btn-block" role="button"
+								aria-pressed="true">ver
+								en
+								la tienda</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--FOOTER-->
+	<section id="footer">
+		<div class="container">
+			<img src="assets/imagotipo.png" alt="logo" style="width: 40%">
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+			<ul class="list-inline">
+				<li class="list-inline-item footer-menu"><a href="pages/nosotros.html">Nosotros</a></li>
+				<li class="list-inline-item footer-menu"><a href="pages/tienda.html">Tienda</a></li>
+				<li class="list-inline-item footer-menu"><a href="pages/contacto.html">Contacto</a></li>
+				<li class="list-inline-item footer-menu"><a href="pages/singin.html">Mi cuenta</a></li>
+			</ul>
+		</div>
+		<div class="footerb">
+			<p class="footerb--p">Copyright ©2021 – Munay Homedeco – Designed By FACUNDO SAVIGNONE</p>
+		</div>
+	</section>
+	<!--BOOTSTRAP 4.6 JS-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
